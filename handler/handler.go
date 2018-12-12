@@ -6,7 +6,7 @@ import (
 	"log"
 
 	"github.com/nats-io/go-nats-streaming"
-	"github.com/openfaas/faas/gateway/queue"
+	"github.com/Lambda-NIC/faas/gateway/queue"
 )
 
 // NatsQueue queue for work

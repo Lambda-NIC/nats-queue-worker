@@ -16,8 +16,8 @@ import (
 	"net/http"
 
 	"github.com/nats-io/go-nats-streaming"
-	"github.com/openfaas/faas-provider/auth"
-	"github.com/openfaas/faas/gateway/queue"
+	"github.com/Lambda-NIC/faas-provider/auth"
+	"github.com/Lambda-NIC/faas/gateway/queue"
 )
 
 // AsyncReport is the report from a function executed on a queue worker.

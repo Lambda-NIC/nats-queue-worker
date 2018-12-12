@@ -1,5 +1,5 @@
 FROM golang:1.9.7-alpine as golang
-WORKDIR /go/src/github.com/openfaas/nats-queue-worker
+WORKDIR /go/src/github.com/Lambda-NIC/nats-queue-worker
 
 COPY vendor     vendor
 COPY handler    handler
@@ -23,7 +23,7 @@ EXPOSE 8080
 ENV http_proxy      ""
 ENV https_proxy     ""
 
-COPY --from=golang /go/src/github.com/openfaas/nats-queue-worker/app    .
+COPY --from=golang /go/src/github.com/Lambda-NIC/nats-queue-worker/app    .
 
 RUN chown -R app:app ./
 

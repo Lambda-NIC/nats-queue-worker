@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/openfaas/faas-provider/auth"
+	"github.com/Lambda-NIC/faas-provider/auth"
 )
 
 //AddBasicAuth to a request by reading secrets
